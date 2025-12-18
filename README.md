@@ -14,6 +14,8 @@ Repeatability Checks: Identify and quantify repeated or duplicated sequences acr
 The package is lightweight, dependency-managed (via requirements.txt and Bioconda tools), and configured through YAML files and sample sheets, making it suitable for MiSeq or similar NGS runs in antibody discovery projects.
 Potential Future Enhancements
 
+Developability Assessment: Built-in filters for liabilities (e.g., glycosylation sites, cysteine residues) and integration with external databases for off-target prediction.
+
 To further empower antibody discovery workflows, future versions could include:
 
 Advanced Visualization: Interactive plots for repertoire diversity (e.g., Shannon entropy, clonal frequency distributions), enrichment heatmaps across selection rounds, sequence logos for CDR regions, and pairwise similarity networks.
@@ -21,8 +23,6 @@ Advanced Visualization: Interactive plots for repertoire diversity (e.g., Shanno
 Fold Change and Enrichment Analysis: Statistical computation of log-fold changes between pre- and post-selection rounds, with significance testing to highlight antigen-specific binders.
 
 Machine Learning Integration: Predictive models for affinity or developability scoring, clustering of related sequences (e.g., lineage grouping), or epitope binning using sequence features.
-
-Developability Assessment: Built-in filters for liabilities (e.g., glycosylation sites, cysteine residues) and integration with external databases for off-target prediction.
 
 
 Repository: https://github.com/bmhoan/IPIAbDiscov
