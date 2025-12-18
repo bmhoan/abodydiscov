@@ -61,4 +61,4 @@ python  __main__.py  pick-leads --folder /Users/Hoan.Nguyen/ComBio/NGS/Projects/
 python  __main__.py check-repeats --folder /Users/Hoan.Nguyen/ComBio/NGS/Projects/AntibodyDiscovery/Miseq104/results
 
 
-# contact {Hoan.Nguyen, Andre.Teixeira}@proteininnovation.org}
+#contact {Hoan.Nguyen, Andre.Teixeira}@proteininnovation.org}
