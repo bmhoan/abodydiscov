@@ -64,9 +64,7 @@ python  __main__.py check-repeats --folder /Users/Hoan.Nguyen/ComBio/NGS/Project
 # My pipeline configuration
 # config.yaml - Single master configuration file
 
-
 current_library: "standard_fab"   # ← CHANGE THIS LINE
-
 
 general:
   base_dir: "/Users/Hoan.Nguyen/ComBio/AbodyDiscov"
@@ -153,18 +151,18 @@ processing:
 
   skip_processed: false
 
-combine:
-  # Columns used for grouping in pivot table
+combine:   
+  #Columns used for grouping in pivot table
   pivot_cols:
     - "cdr3_aa"
     - "vh_scaffold"
     - "vl_scaffold"
     - "cdr3_functional"
 
-  # Name of the CDR3 column (used for liabilities, clustering, length filtering)
+  #Name of the CDR3 column (used for liabilities, clustering, length filtering)
   cdr3_col: "cdr3_aa"
 
-  # Filtering thresholds
+  #Filtering thresholds
   min_cdr3_len: 6
   max_cdr3_len: 30
   min_freq: 0.0001
@@ -173,7 +171,7 @@ combine:
   min_reads_per_round: 5000
   remove_non_functional: true
 
-  # Critical liabilities for rank adjustment
+  #Critical liabilities for rank adjustment
   critical_liabilities:
     - "l_glyco"
     - "l_RR"
@@ -185,10 +183,10 @@ combine:
     - "l_arg"
     - "l_rmd"
 
-  # Clustering
+  #Clustering
   greedy_cutoff: 0.85
 
-  # Output
+  #Output
   top_leads_per_target: 10000
 
 pick_leads:
